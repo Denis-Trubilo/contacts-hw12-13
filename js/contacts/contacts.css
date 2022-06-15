@@ -1,0 +1,99 @@
+.contacts{
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+.contacts__form{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.contacts__form input{
+    margin-bottom: 15px;
+    border: 0;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: 0 5px 10px rgb(44, 43, 48);;
+}
+
+.contacts__button{
+    border: 0;
+    background-color: rgb(90, 116, 78);
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+    width: 40%;
+    margin: 0 auto;
+    opacity: 0.8;
+}
+.contacts__button:hover{
+    background-color: rgb(90, 116, 78);
+    box-shadow: 0 5px 5px rgb(168, 168, 168);
+    opacity: 1;
+}
+.contacts__list{
+display: flex;
+flex-direction: column;
+
+}
+.contacts__data{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgb(168, 168, 168);
+    padding: 10px;
+    background-color: #fff;
+    max-width: 100%;
+}
+.contacts__item{
+    max-width: 90%;
+  
+}
+.contacts__btns{
+  flex: 0 0 auto;
+  align-items: flex-end;
+  margin: 0 10px;
+}
+.list__name{
+    font-weight: 700;
+    font-size: 24px;
+    
+}
+
+.list__btn-del{
+    width: 70px;
+    padding: 5px;
+    border: 0;
+    background-color: rgb(90, 116, 78);
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+    margin: 0px auto;
+    opacity: 0.8;
+    
+    
+}
+
+.list__btn-del:hover{
+    background-color: rgb(90, 116, 78);
+    box-shadow: 0 5px 5px rgb(168, 168, 168);
+    opacity: 1;
+}
+
+.list__name,
+.list__email,
+.list__address,
+.list__phone{
+    margin-bottom: 8px;
+    color:  rgb(26, 34, 22);
+}

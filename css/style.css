@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    padding: 2%;
+}
+
+body, 
+input, 
+textarea, 
+button {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: rgb(211, 226, 204);
+}
+ul{
+    list-style: none;
+}
